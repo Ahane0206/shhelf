@@ -9,7 +9,7 @@
 <h2>你的資料存在哪裡</h2>
 <ul>
 <li>講義、筆記、手寫、題目、讀書規劃等,存在你的裝置上;開啟 iCloud 同步時,存在<strong>你自己的 iCloud 帳號</strong>裡(由 Apple 保管,我們看不到)。</li>
-<li>AI 服務的金鑰、Moodle 的安全金鑰,只存在你裝置的鑰匙圈,不會同步、不會傳給我們。</li>
+<li>AI 服務的金鑰只存在你裝置的鑰匙圈,不會同步、不會傳給我們。</li>
 </ul>
 <h2>使用 AI 功能時(第三方 AI 服務)</h2>
 <ul>
@@ -21,10 +21,13 @@
 <li>這些服務如何處理資料,依它們自己的隱私權政策(例如 Google:<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>),提供與其公開政策相同的保護;部分免費方案可能用來改善服務,太私密的內容請不要傳給 AI。</li>
 <li>不想傳送資料,可以不設定金鑰或選「不同意」,AI 以外的功能都能正常使用。</li>
 </ul>
-<h2>連接 Moodle 時</h2>
+<h2>使用 Moodle 時</h2>
 <ul>
-<li>App 用你貼上的 Moodle 安全金鑰,<strong>直接從你的裝置</strong>連到你學校的 Moodle,讀取課程檔案、公告、成績、截止日。</li>
-<li>App 不會收到或儲存你的 Moodle 密碼。</li>
+<li>Moodle 是在 App 裡打開你學校的 Moodle 網頁,由你自己在學校的登入頁登入。帳號密碼只輸入在學校的網頁上,App 不會讀取或儲存你的密碼。</li>
+<li>登入狀態(網頁 cookie)只存在這台裝置上 Moodle 專用的網頁資料區,不會傳給我們。</li>
+<li>只有在你打開某一門課、按下「更新此科目內容到 Shhelf」時,App 才會讀取那一門課頁面上列出的教材(檔案、資料夾、頁面、影片),存成這台裝置上的清單;不會在背景、定時或一次讀取所有課程。你對某門課開啟「自動下載」時,也會在這時把講義下載到你的文件庫。</li>
+<li>這些連線都是<strong>直接從你的裝置</strong>到你學校的 Moodle,不經過我們;下載檔案時,登入資訊只會送給你學校的網站。</li>
+<li>在 Moodle 頁按「登出並清除 Moodle 資料」,會登出並刪除這台裝置上的 Moodle 清單和附件暫存;已經下載進文件庫的講義不受影響。</li>
 </ul>
 <h2>麥克風、語音辨識、提醒事項</h2>
 <ul>
@@ -38,6 +41,6 @@
 <li>iCloud 裡的資料可以在「設定 → Apple 帳號 → iCloud → 管理帳號儲存空間」刪除。</li>
 </ul>
 <h2>English summary</h2>
-<p>Shhelf has no server and collects no data. AI features are optional and use the user's own API key. When the user uses an AI feature, the app sends the content they choose (document text, selected page images including handwriting, their questions, and lecture audio/transcripts when that feature is used) directly from the device to the AI provider the user configured: Google (Gemini API), Groq, OpenRouter, Mistral AI, Zhipu AI, NVIDIA or Cerebras. The data is used only to produce the requested result. Before data is sent to a provider for the first time, the app asks for the user's permission, naming the data and the provider; nothing is sent without consent, and consent can be withdrawn in Settings. Each provider handles the data under its own privacy policy.</p>
+<p>Shhelf has no server and collects no data. AI features are optional and use the user's own API key. When the user uses an AI feature, the app sends the content they choose (document text, selected page images including handwriting, their questions, and lecture audio/transcripts when that feature is used) directly from the device to the AI provider the user configured: Google (Gemini API), Groq, OpenRouter, Mistral AI, Zhipu AI, NVIDIA or Cerebras. The data is used only to produce the requested result. Before data is sent to a provider for the first time, the app asks for the user's permission, naming the data and the provider; nothing is sent without consent, and consent can be withdrawn in Settings. Each provider handles the data under its own privacy policy. Moodle is optional: the app opens the user's school Moodle website, where the user signs in themselves; the app never reads or stores the password, keeps the sign-in cookies only on the device, and reads a course's material list only when the user taps "update" on that course page. Signing out in the app deletes the Moodle sign-in, list and cached attachments from the device.</p>
 <h2>聯絡我們</h2>
 <p>有任何問題請寄信至:<a href="mailto:readabook2026@gmail.com">readabook2026@gmail.com</a></p></body></html>
